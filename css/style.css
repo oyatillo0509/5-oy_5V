@@ -1,16 +1,19 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-  text-decoration: none;
   list-style: none;
+  text-decoration: none;
+}
+
+body html {
+  background-color: #fff9f3;
 }
 
 .wrapper {
-  max-width: 2348px;
-  width: 100%;
+  width: 2850px;
   margin: 0 auto;
-  text-align: center;
+  max-width: 2384px;
 }
 .menu {
   margin-top: 114px;
