@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 2348px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu {
+  margin-top: 114px;
+  display: flex;
+  gap: 68px;
+  justify-content: center;
+  align-items: center;
+}
+.menu button {
+  width: 235px;
+  height: 119px;
+  border-radius: 10px;
+  color: yellow;
+  padding: 30px;
+  cursor: pointer;
+  border: 0px;
+}
+.menu img {
+  width: 55px;
+  height: 55px;
+}
+.menu a {
+  width: 287px;
+  height: 50px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 50.4px;
+  text-align: left;
+  color: #18181b;
+}
+.main {
+  display: flex;
+  margin-top: 117px;
+}
+
+#language {
+  border: 0px;
+  cursor: pointer;
+  width: 235px;
+  height: 119px;
+  font-size: 40px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 50.4px;
+  text-align: left;
+}
+.m_right {
+  width: 1174px;
+  height: 1271px;
+  text-align: left;
+  padding: 95px 47px 96px 47px;
+  background: var(--Background, #f4f4f5);
+}
+.mal2 {
+  display: none;
+}
+.m_left {
+  text-align: left;
+  width: 1174px;
+  height: 1271px;
+  padding: 95px 47px 96px 47px;
+  background: var(--Background, #18181b);
+}
+.block {
+  position: relative;
+  width: 1174px;
+  height: 1271px;
+}
+.im_f {
+  position: absolute;
+  width: 117.64px;
+  height: 117.64px;
+  top: 675px;
+  left: 520px;
+}
+.im_m {
+  width: 832px;
+  height: 832px;
+  position: absolute;
+  top: 437px;
+  left: 368px;
+}
+.block a {
+  display: block;
+  width: 609px;
+  height: 360px;
+  margin-top: 235px;
+  font-family: Poppins;
+  font-size: 86px;
+  font-weight: 600;
+  line-height: 90.3px;
+  text-align: left;
+  color: #f4f4f5;
+}
+.block p {
+  width: 471px;
+  height: 70px;
+  margin-top: 48px;
+  font-family: Poppins;
+  font-size: 33.59px;
+  font-weight: 400;
+  line-height: 35.27px;
+  text-align: left;
+  color: #d4d4d8;
+}
+.block button {
+  width: 295px;
+  height: 83px;
+  border-radius: 15px;
+  gap: 10px;
+  border: 0px;
+  background: #6b21a8;
+  margin-top: 48px;
+  font-family: Poppins;
+  font-size: 33.59px;
+  font-weight: 500;
+  line-height: 35.27px;
+  color: #fafafa;
+}
